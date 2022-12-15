@@ -1,3 +1,4 @@
+import 'package:devx/Login.dart';
 import 'package:devx/Signup.dart';
 import 'package:flutter/material.dart';
 void main() {
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
       initialRoute: 'Signup',
       routes: {
         'Signup' : (context) => const Signup(),
+        'Login' : (context) => const Login(),
       },
     );
   }
